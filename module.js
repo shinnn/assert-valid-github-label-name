@@ -1,5 +1,5 @@
 /*!
- * assert-valid-github-label-name | MIT (c) Shinnosuke Watanabe
+ * assert-valid-github-label-name | ISC (c) Shinnosuke Watanabe
  * https://github.com/shinnn/assert-valid-github-label-name
 */
 import appendType from 'append-type';

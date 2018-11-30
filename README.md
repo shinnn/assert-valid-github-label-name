@@ -1,11 +1,11 @@
 # assert-valid-github-label-name
 
-[![NPM version](https://img.shields.io/npm/v/assert-valid-github-label-name.svg)](https://www.npmjs.com/package/assert-valid-github-label-name)
+[![npm version](https://img.shields.io/npm/v/assert-valid-github-label-name.svg)](https://www.npmjs.com/package/assert-valid-github-label-name)
 [![Bower version](https://img.shields.io/bower/v/assert-valid-github-label-name.svg)](https://github.com/shinnn/assert-valid-github-label-name/releases)
-[![Build Status](https://travis-ci.org/shinnn/assert-valid-github-label-name.svg?branch=master)](https://travis-ci.org/shinnn/assert-valid-github-label-name)
+[![Build Status](https://travis-ci.com/shinnn/assert-valid-github-label-name.svg?branch=master)](https://travis-ci.com/shinnn/assert-valid-github-label-name)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/assert-valid-github-label-name.svg)](https://coveralls.io/r/shinnn/assert-valid-github-label-name)
 
-Assert a given string is a valid [Github issue label](https://help.github.com/articles/creating-and-editing-labels-for-issues-and-pull-requests/) name
+Assert a given string is a valid [Github issue label](https://help.github.com/articles/creating-a-label/) name
 
 ```javascript
 import assertValidGithubLabelName from 'assert-valid-github-label-name';
@@ -41,7 +41,7 @@ bower install assert-valid-github-label-name
 
 ### assertValidGithubLabelName(*str*)
 
-*str*: `String` (Github issue label name)  
+*str*: `string` (Github issue label name)  
 
 It throws an error when the given string is not a valid Github issue label name.
 
@@ -62,6 +62,4 @@ assertValidGithubLabelName('');
 
 ## License
 
-Copyright (c) 2017 [Shinnosuke Watanabe](https://github.com/shinnn)
-
-Licensed under [the MIT License](./LICENSE).
+[ISC License](./LICENSE) © 2018 Shinnosuke Watanabe

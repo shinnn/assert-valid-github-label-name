@@ -4,7 +4,7 @@ var appendType = require('append-type');
 var validateGithubIssueLabelName = require('validate-github-label-name');
 
 /*!
- * assert-valid-github-label-name | MIT (c) Shinnosuke Watanabe
+ * assert-valid-github-label-name | ISC (c) Shinnosuke Watanabe
  * https://github.com/shinnn/assert-valid-github-label-name
 */
 var ERROR_MESSAGE = 'Expected a valid Github issue label name';
