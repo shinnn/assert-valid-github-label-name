@@ -1,9 +1,8 @@
 # assert-valid-github-label-name
 
 [![npm version](https://img.shields.io/npm/v/assert-valid-github-label-name.svg)](https://www.npmjs.com/package/assert-valid-github-label-name)
-[![Bower version](https://img.shields.io/bower/v/assert-valid-github-label-name.svg)](https://github.com/shinnn/assert-valid-github-label-name/releases)
 [![Build Status](https://travis-ci.com/shinnn/assert-valid-github-label-name.svg?branch=master)](https://travis-ci.com/shinnn/assert-valid-github-label-name)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/assert-valid-github-label-name.svg)](https://coveralls.io/r/shinnn/assert-valid-github-label-name)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/assert-valid-github-label-name.svg)](https://coveralls.io/github/shinnn/assert-valid-github-label-name)
 
 Assert a given string is a valid [Github issue label](https://help.github.com/articles/creating-a-label/) name
 
@@ -25,19 +24,17 @@ at 11: Label name cannot have linebreaks.
 
 ## Installation
 
-### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install assert-valid-github-label-name
 ```
 
-### [bower](https://bower.io/)
-
-```
-bower install assert-valid-github-label-name
-```
-
 ## API
+
+```javascript
+import assertValidGithubLabelName from 'assert-valid-github-label-name';
+```
 
 ### assertValidGithubLabelName(*str*)
 
@@ -46,8 +43,6 @@ bower install assert-valid-github-label-name
 It throws an error when the given string is not a valid Github issue label name.
 
 ```javascript
-import assertValidGithubLabelName from 'assert-valid-github-label-name';
-
 // doesn't throw
 assertValidGithubLabelName('foo');
 assertValidGithubLabelName('bar baz');
